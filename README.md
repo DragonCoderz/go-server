@@ -17,14 +17,22 @@ This is a simple Go program that demonstrates the setup of an HTTP server with t
    ```bash
    go build
    ```
+   
+   Note that you may need to make a go module before you can build an executable. If you encounter errors do the following step before you run go build (you can substitute module-name for anything):
+   
+   ```bash
+   go mod init module-name
+   ```
+   
+   
 
 4. Run the compiled program:
 
    ```bash
-   ./http-server-example
+   go run main.go
    ```
 
-   You should see the message "Starting server at port 8080" indicating that the server has started successfully.
+   You should see the message "Starting server at port 8080" indicating that the server has started successfully. 
 
 5. Open a web browser and visit `http://localhost:8080`. You should see a file server in action, serving the files from the "./static" directory.
 
