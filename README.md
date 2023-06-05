@@ -1,5 +1,3 @@
-Certainly! Here's a README file for the code you provided:
-
 # HTTP Server Example
 
 This is a simple Go program that demonstrates the setup of an HTTP server with two request handlers: `formHandler` and `helloHandler`.
